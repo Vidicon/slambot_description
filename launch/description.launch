@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Load the Robot Description into the ROS Parameter Server -->
+    <param name="robot_description" command="$(find xacro)/xacro '$(find slambot_description)/urdf/slambot.urdf.xacro'" />
+
+</launch>
